@@ -1,3 +1,4 @@
-name: Occupy.here
+name: occupy.here
+url: http://occupyhere.org/
 markdown: redcarpet
 pygments: true

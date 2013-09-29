@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
 	<channel>
-		<title>Occupy.here</title>
+		<title>occupy.here</title>
 		<description></description>
-		<link></link>
-		<atom:link href="/feed.xml" rel="self" type="application/rss+xml" />
+		<link>http://occupyhere.org/</link>
+		<atom:link href="http://occupyhere.org//feed.xml" rel="self" type="application/rss+xml" />
 		
 			<item>
 				<title>Occupy.here at PRISM Breakup</title>
@@ -13,8 +13,8 @@
 &lt;p&gt;Dan will also be giving &lt;a href=&quot;http://prismbreakup.org/#/schedule/small-wifi-networks-loosely-joined&quot;&gt;a talk&lt;/a&gt; at 4:30pm.&lt;/p&gt;
 </description>
 				<pubDate>Mon, 30 Sep 2013 20:00:00 -0400</pubDate>
-				<link>/2013/09/30/prism-breakup.html</link>
-				<guid isPermaLink="true">/2013/09/30/prism-breakup.html</guid>
+				<link>http://occupyhere.org/#/2013/09/30/prism-breakup.html</link>
+				<guid isPermaLink="true">http://occupyhere.org/#/2013/09/30/prism-breakup.html</guid>
 			</item>
 		
 			<item>
@@ -24,8 +24,8 @@
 &lt;p&gt;Download: &lt;a href=&quot;http://occupyhere.org/releases/occupy.here-r1.zip&quot;&gt;Occupy.here release 1&lt;/a&gt;&lt;/p&gt;
 </description>
 				<pubDate>Sun, 29 Sep 2013 20:00:00 -0400</pubDate>
-				<link>/2013/09/29/release-1.html</link>
-				<guid isPermaLink="true">/2013/09/29/release-1.html</guid>
+				<link>http://occupyhere.org/#/2013/09/29/release-1.html</link>
+				<guid isPermaLink="true">http://occupyhere.org/#/2013/09/29/release-1.html</guid>
 			</item>
 		
 			<item>
@@ -33,8 +33,8 @@
 				<description>&lt;p&gt;Occupy.here was &lt;a href=&quot;http://canopycanopycanopy.com/updates/245&quot;&gt;commissioned by Triple Canopy&lt;/a&gt; to provide a virtual library for their school and lecture series at MoMA PS1&amp;#39;s EXPO 1, titled &lt;i&gt;Speculations (“The Future Is ___________”)&lt;/i&gt;. You can watch the &lt;a href=&quot;http://www.momaps1.org/expo1/event/dan-phiffer/&quot;&gt;archived LiveStream of Dan’s talk&lt;/a&gt;.&lt;/p&gt;
 </description>
 				<pubDate>Wed, 15 May 2013 20:00:00 -0400</pubDate>
-				<link>/2013/05/15/occupy.here-at-expo1.html</link>
-				<guid isPermaLink="true">/2013/05/15/occupy.here-at-expo1.html</guid>
+				<link>http://occupyhere.org/#/2013/05/15/occupy.here-at-expo1.html</link>
+				<guid isPermaLink="true">http://occupyhere.org/#/2013/05/15/occupy.here-at-expo1.html</guid>
 			</item>
 		
 			<item>
@@ -42,8 +42,8 @@
 				<description>&lt;p&gt;Come to the &lt;a href=&quot;http://occupyhere-ideascity.eventbrite.com/&quot;&gt;occupy.here workshop&lt;/a&gt; on Friday May 3rd, part of the &lt;a href=&quot;http://ideas-city.org/&quot;&gt;IDEAS CITY festival&lt;/a&gt; organized by the New Museum.&lt;/p&gt;
 </description>
 				<pubDate>Thu, 02 May 2013 20:00:00 -0400</pubDate>
-				<link>/2013/05/02/ideas-city.html</link>
-				<guid isPermaLink="true">/2013/05/02/ideas-city.html</guid>
+				<link>http://occupyhere.org/#/2013/05/02/ideas-city.html</link>
+				<guid isPermaLink="true">http://occupyhere.org/#/2013/05/02/ideas-city.html</guid>
 			</item>
 		
 			<item>
@@ -51,8 +51,8 @@
 				<description>&lt;p&gt;Occupy.here is at South by Southwest, presenting with Harlo Holmes of The Guardian Project and Isaac Wilder of the Free Network Foundation. Come see &lt;a href=&quot;http://schedule.sxsw.com/2013/events/event_IAP6393&quot;&gt;our panel on Saturday morning&lt;/a&gt;! (see also: &lt;a href=&quot;http://mlkshk.com/p/DMNT&quot;&gt;one year ago in Austin&lt;/a&gt;)&lt;/p&gt;
 </description>
 				<pubDate>Fri, 08 Mar 2013 19:00:00 -0500</pubDate>
-				<link>/2013/03/08/occupy.here-at-sxsw-2013.html</link>
-				<guid isPermaLink="true">/2013/03/08/occupy.here-at-sxsw-2013.html</guid>
+				<link>http://occupyhere.org/#/2013/03/08/occupy.here-at-sxsw-2013.html</link>
+				<guid isPermaLink="true">http://occupyhere.org/#/2013/03/08/occupy.here-at-sxsw-2013.html</guid>
 			</item>
 		
 			<item>
@@ -60,8 +60,8 @@
 				<description>&lt;p&gt;There's &lt;a href=&quot;http://hyperallergic.com/54540/dan-phiffers-occupy-here-rhizome-grant/&quot;&gt;an interview with founder Dan Phiffer&lt;/a&gt; in the art blog Hyperallergic. Thanks &lt;a href=&quot;http://benjaminvalentine.com&quot;&gt;Ben!&lt;/a&gt;&lt;/p&gt;
 </description>
 				<pubDate>Thu, 26 Jul 2012 20:00:00 -0400</pubDate>
-				<link>/2012/07/26/occupy.here-in-hyperallergic.html</link>
-				<guid isPermaLink="true">/2012/07/26/occupy.here-in-hyperallergic.html</guid>
+				<link>http://occupyhere.org/#/2012/07/26/occupy.here-in-hyperallergic.html</link>
+				<guid isPermaLink="true">http://occupyhere.org/#/2012/07/26/occupy.here-in-hyperallergic.html</guid>
 			</item>
 		
 			<item>
@@ -69,8 +69,8 @@
 				<description>&lt;p&gt;We’re really honored to have received &lt;a href=&quot;http://rhizome.org/editorial/2012/jul/16/rhizome-announces-commissions-2012-grantees/&quot;&gt;a Rhizome commission!&lt;/a&gt; Soon we'll have the funding to deploy a new round of public wifi nodes.&lt;/p&gt;
 </description>
 				<pubDate>Sun, 15 Jul 2012 20:00:00 -0400</pubDate>
-				<link>/2012/07/15/rhizome-commission.html</link>
-				<guid isPermaLink="true">/2012/07/15/rhizome-commission.html</guid>
+				<link>http://occupyhere.org/#/2012/07/15/rhizome-commission.html</link>
+				<guid isPermaLink="true">http://occupyhere.org/#/2012/07/15/rhizome-commission.html</guid>
 			</item>
 		
 	</channel>

@@ -10,13 +10,13 @@ title: occupy.here / a tiny self-contained darknet
     </div>
     <div class="oh-section oh-news col-md-3 col-sm-7">
       <h3>News</h3>
-      <div class="item">
+      <div class="item" id="{{ site.posts.first.url }}">
         {{ site.posts.first.content }}
       </div>
       <div class="oh-archive">
         {% for post in site.posts %}
           {% if post != site.posts.first %}
-            <div class="item">
+            <div class="item" id="{{ post.url }}">
               {{ post.content }}
             </div>
           {% endif %}
