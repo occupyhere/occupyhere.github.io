@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>occupy.here / a tiny self-contained darknet</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <link href="css/occupyhere.min.css" rel="stylesheet" media="screen">
+    <!--[if lt IE 9]>
+      <script src="js/html5shiv.js"></script>
+      <script src="js/respond.min.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+    <div class="navbar-wrapper">
+      <div class="container">
+
+        <div class="navbar navbar-inverse navbar-static-top">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              <a class="navbar-brand" href="#">occupy.here</a>
+            </div>
+            <div class="navbar-collapse collapse">
+              <ul class="nav navbar-nav">
+                <li><a href="#what">What is it?</a></li>
+                <li><a href="https://github.com/dphiffer/occupy.here/wiki/How-to-build-Occupy.here">DIY Guide</a></li>
+                <li><a href="https://lists.riseup.net/www/info/occupy.here">Mailing List</a></li>
+              </ul>
+              <ul class="nav navbar-nav navbar-right">
+                <li><a href="https://github.com/dphiffer/occupy.here">GitHub</a></li>
+                <li><a href="https://twitter.com/occupy_here">Twitter</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+    <div id="carousel" class="carousel slide">
+  <ol class="carousel-indicators">
+    <li data-target="#carousel" data-slide-to="0" class="active"></li>
+    <li data-target="#carousel" data-slide-to="1"></li>
+    <li data-target="#carousel" data-slide-to="2"></li>
+  </ol>
+  <div class="carousel-inner">
+    <div class="item active">
+      <img data-src="/images/phone.jpg" alt="Occupy.here web interface in Zuccotti Park">
+      <div class="carousel-cover"></div>
+      <div class="container">
+        <div class="carousel-caption">
+          <h1>Connect with neighbors</h1>
+          <p>Share messages and files with others nearby.</p>
+          <p><a class="btn btn-large btn-primary" href="#what">Read More</a></p>
+        </div>
+      </div>
+    </div>
+    <div class="item">
+      <img data-src="/images/router.jpg" alt="Occupy.here router">
+      <div class="carousel-cover"></div>
+      <div class="container">
+        <div class="carousel-caption">
+          <h1>Host your own data</h1>
+          <p>Build it yourself and keep your stuff off the cloud.</p>
+          <p><a class="btn btn-large btn-primary" href="https://github.com/dphiffer/occupy.here/wiki/How-to-build-Occupy.here">DIY Guide</a></p>
+        </div>
+      </div>
+    </div>
+    <div class="item">
+      <img data-src="/images/network.jpg" alt="Network graph of the Arab Spring">
+      <div class="container">
+        <div class="carousel-caption">
+          <h1>Help define a new network</h1>
+          <p>Join the discussion about how to build Occupy.here.</p>
+          <p><a class="btn btn-large btn-primary" href="https://lists.riseup.net/www/info/occupy.here">Mailing List</a></p>
+        </div>
+        <div class="carousel-credit">
+          <a href="http://www.flickr.com/photos/giladlotan/6475146725">(cc) Gilad Lotan</a>
+        </div>
+      </div>
+    </div>
+  </div>
+  <a class="left carousel-control" href="#carousel" data-slide="prev"><span class="glyphicon glyphicon-chevron-left"></span></a>
+  <a class="right carousel-control" href="#carousel" data-slide="next"><span class="glyphicon glyphicon-chevron-right"></span></a>
+</div>
+
+<div class="oh-main container">
+  <div class="row">
+    <div id="what" class="oh-section oh-what col-md-6">
+      <h3>What is it?</h3>
+      <p class="lead">Each Occupy.here router is a LAN island in an archipelago of affiliated websites.</p>
+      <p>Anyone within range of an Occupy.here wifi router, with a web-capable smartphone or laptop, can join the network “OCCUPY.HERE,” load the locally-hosted website http://occupy.here, and use the message board to connect with other users nearby. The open source forum software offers a simple, mobile-friendly interface where users can share messages and files.</p>
+      <p>The project has developed in parallel with the Occupy movement and seeks to offer a network of virtual spaces where both committed activists and casual supporters can communicate. Occupy.here is decentralized and resistant to Internet surveillance. However, because the network welcomes new users to join anonymously, it is not a channel for <i>private</i> communication.</p>
+      <h3>The idea</h3>
+      <p>The project started in October 2011, with the goal to create a written supplement to the spoken conversations in Liberty Square (aka Zuccotti park). I wasn’t able to spend as much time in the park as I wanted, so I thought about how I might connect with others who passed through intermittently via an “offline forum.” Restricting the forum to those within the local wifi range created a self-selecting audience, and also (perhaps) created one more incentive to visit the occupation.</p>
+      <p>Since Liberty Square has been cleared and the Occupy Wall Street movement is more decentralized, the goals for the project have adjusted. Instead of (or, perhaps, in addition to) augmenting the experience of being in an OWS encampment, we are building an archipelago of virtual spaces to host conversations similar to those in Liberty Square. More than ever, both “activists” and ”non-activists” alike need to have spaces for open discussion.</p>
+      <p>The new focus is to <em>create a distributed network of wifi locations</em>, each serving those in its immediate vicinity. These separate networks will soon be able to connect to each other, although that functionality is still under development.</p>
+      <h3>How you can help</h2>
+      <p>The project seeks collaborators of all kinds. You can help <a href="https://github.com/dphiffer/occupy.here">write the code</a>, <a href="https://github.com/dphiffer/occupy.here/wiki/How-to-build-Occupy.here">build and host your own wifi node</a>, or simply <a href="https://lists.riseup.net/www/info/occupy.here">participate in the conversation</a>.</p>
+      <p><a href="http://phiffer.org/">Dan Phiffer</a> is the founder and lead developer, with further contributions from GitHub user <a href="https://github.com/Phaeilo">Phaeilo</a>. You should join us!</p>
+
+    </div>
+    <div class="oh-section oh-news col-md-3 col-sm-7">
+      <h3>News</h3>
+      <div class="item">
+        <p>We&#39;re giving a workshop at PRISM Breakup: <a href="http://prismbreakup.org/#/schedule/how-to-build-a-tiny-self-contained-darknet">How to build a tiny self-contained darknet</a>. Starts 12:30pm on Sunday October 6, 2013, at Eyebeam (540 W 21st St, NYC). Bring a laptop!</p>
+
+<p>Dan will also be giving <a href="http://prismbreakup.org/#/schedule/small-wifi-networks-loosely-joined">a talk</a> at 4:30pm.</p>
+
+      </div>
+      <div class="oh-archive">
+        
+          
+        
+          
+            <div class="item">
+              <p>After nearly two years of development, the first official release is now ready for download.</p>
+
+<p>Download: <a href="http://occupyhere.org/releases/occupy.here-r1.zip">Occupy.here release 1</a></p>
+
+            </div>
+          
+        
+          
+            <div class="item">
+              <p>Occupy.here was selected by <a href="http://canopycanopycanopy.com/updates/245">Triple Canopy</a> to provide a virtual library for their school and lecture series at MoMA PS1&#39;s EXPO 1, titled <i>Speculations (“The Future Is ___________”)</i>. You can watch the <a href="http://www.momaps1.org/expo1/event/dan-phiffer/">archived LiveStream of Dan’s talk</a>.</p>
+
+            </div>
+          
+        
+          
+            <div class="item">
+              <p>Come to the <a href="http://occupyhere-ideascity.eventbrite.com/">occupy.here workshop</a> on Friday May 3rd, part of the <a href="http://ideas-city.org/">IDEAS CITY festival</a> organized by the New Museum.</p>
+
+            </div>
+          
+        
+          
+            <div class="item">
+              <p>Occupy.here is at South by Southwest, presenting with Harlo Holmes of The Guardian Project and Isaac Wilder of the Free Network Foundation. Come see <a href="http://schedule.sxsw.com/2013/events/event_IAP6393">our panel on Saturday morning</a>! (see also: <a href="http://mlkshk.com/p/DMNT">one year ago in Austin</a>)</p>
+
+            </div>
+          
+        
+          
+            <div class="item">
+              <p>There's <a href="http://hyperallergic.com/54540/dan-phiffers-occupy-here-rhizome-grant/">an interview with founder Dan Phiffer</a> in the art blog Hyperallergic. Thanks <a href="http://benjaminvalentine.com">Ben!</a></p>
+
+            </div>
+          
+        
+          
+            <div class="item">
+              <p>We’re really honored to have received <a href="http://rhizome.org/editorial/2012/jul/16/rhizome-announces-commissions-2012-grantees/">a Rhizome commission!</a> Soon we'll have the funding to deploy a new round of public wifi nodes.</p>
+
+            </div>
+          
+        
+      </div>
+      <p class="oh-subscribe"><a href="/feed.xml">Subscribe to the news feed</a></p>
+      <p class="oh-show-archive"><a href="#">Show archived news</a></p>
+    </div>
+    <div class="oh-section col-md-3 col-sm-5">
+      <div class="oh-download">
+  <h3>Download</h3>
+  <p><a  href="#" class="btn btn-large btn-primary"><span class="glyphicon glyphicon-file"></span> <strong>occupy.here</strong> release 1</a></p>
+  <p>
+    October 1, 2013<br>
+    Supported wifi routers:
+    <ul>
+      <li><a href="http://wiki.openwrt.org/toh/tp-link/tl-wr703n">TP-Link
+      TL-WR703N</a></li>
+      <li><a href="http://wiki.openwrt.org/toh/tp-link/tl-mr3020">TP-Link
+      TL-MR3020</a></li>
+    </ul>
+  </p>
+</div>
+<div class="oh-technical">
+  <h3>Techical stuff</h3>
+  <ul>
+    <li><a href="https://github.com/dphiffer/occupy.here">GitHub project</a></li>
+    <li><a href="https://github.com/dphiffer/occupy.here/wiki/How-to-build-Occupy.here">DIY Guide</a></li>
+  </ul>
+</div>
+<div class="oh-credits">
+  <h3>Supported by</h3>
+  <ul>
+    <li><a href="http://rhizome.org/">Rhizome</a></li>
+    <li><a href="http://canopycanopycanopy.com/">Triple Canopy</a></li>
+    <li><a href="https://www.wepay.com/donations/occupy.here">Your
+    generous donations</a></li>
+  </ul>
+</div>
+<div class="oh-contact">
+  <h3>Stay in touch</h3>
+  <ul>
+    <li><a href="https://lists.riseup.net/www/info/occupy.here">Subscribe to the discussion list</a></li>
+    <li><a href="https://tinyletter.com/occupy_here">Subscribe to the announcements list</a></li>
+    <li>
+      <script>
+      var x="function f(x){var i,o=\"\",ol=x.length,l=ol;while(x.charCodeAt(l/13)!" +
+      "=114){try{x+=x;l+=l;}catch(e){}}for(i=l-1;i>=0;i--){o+=x.charAt(i);}return " +
+      "o.substr(0,ol);}f(\")15,\\\".$(;3.n!1`bkdm'glr#qt n\\\\630\\\\530\\\\710\\\\"+
+      "420\\\\620\\\\;IT)V/O420\\\\430\\\\330\\\\700\\\\130\\\\LI6610\\\\230\\\\01" +
+      "0\\\\H000\\\\620\\\\600\\\\n\\\\030\\\\020\\\\*=>3330\\\\5542>o;'>81\\\"\\\\"+
+      "l120\\\\q-/; g'yfk,-%KWOK520\\\\NW]ZCV[W\\\"(f};o nruter};))++y(^)i(tAedoCr" +
+      "ahc.x(edoCrahCmorf.gnirtS=+o;721=%y{)++i;l<i;0=i(rof;htgnel.x=l,\\\"\\\"=o," +
+      "i rav{)y,x(f noitcnuf\")"                                                    ;
+      while(x=eval(x));
+      </script>
+    </li>
+    <li><a href="http://occupyhere.org/feed.xml">Subscribe to the news feed</a></li>
+    <li><a href="https://twitter.com/occupy_here">Follow @occupy_here on Twitter</a></li>
+  </ul>
+</div>
+
+    </div>
+  </div>
+</div>
+
+    <script src="js/jquery.min.js"></script>
+    <script src="js/occupyhere.min.js"></script>
+  </body>
+</html>

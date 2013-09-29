@@ -1,0 +1,32 @@
+---
+layout: default
+title: occupy.here / a tiny self-contained darknet
+---
+{% include carousel.html %}
+<div class="oh-main container">
+  <div class="row">
+    <div id="what" class="oh-section oh-what col-md-6">
+      {% include what_is_it.html %}
+    </div>
+    <div class="oh-section oh-news col-md-3 col-sm-7">
+      <h3>News</h3>
+      <div class="item">
+        {{ site.posts.first.content }}
+      </div>
+      <div class="oh-archive">
+        {% for post in site.posts %}
+          {% if post != site.posts.first %}
+            <div class="item">
+              {{ post.content }}
+            </div>
+          {% endif %}
+        {% endfor %}
+      </div>
+      <p class="oh-subscribe"><a href="/feed.xml">Subscribe to the news feed</a></p>
+      <p class="oh-show-archive"><a href="#">Show archived news</a></p>
+    </div>
+    <div class="oh-section col-md-3 col-sm-5">
+      {% include sidebar.html %}
+    </div>
+  </div>
+</div>
