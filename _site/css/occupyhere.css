@@ -5682,10 +5682,6 @@ body {
   border-bottom: 1px solid #666;
 }
 
-.oh-show-archive {
-  display: none;
-}
-
 body {
   padding-bottom: 40px;
 }
@@ -5699,6 +5695,34 @@ body {
   background: transparent url(/images/pattern.png);
 }
 
+#oh-what-more,
+#oh-archive,
+#oh-subscribe {
+  display: none;
+}
+
+body.oh-show-what-more #oh-what-more {
+  display: block;
+}
+
+body.oh-show-what-more #oh-what-more-link {
+  display: none;
+}
+
+body.oh-show-archive #oh-archive,
+body.oh-show-archive #oh-subscribe {
+  display: block;
+}
+
+body.oh-show-archive #oh-archive-link {
+  display: none;
+}
+
+#oh-archive-link,
+#oh-subscribe {
+  margin-top: 10px;
+}
+
 @media (min-width: 480px) {
   .navbar {
     margin-bottom: 20px;
@@ -5708,6 +5732,15 @@ body {
   }
   .carousel {
     margin-top: -72px;
+  }
+  #oh-what-more-link,
+  #oh-archive-link {
+    display: none;
+  }
+  #oh-what-more,
+  #oh-archive,
+  #oh-subscribe {
+    display: block;
   }
 }
 
@@ -6174,10 +6207,10 @@ body.modal-open,
 
 .carousel-inner > .item .carousel-credit {
   position: absolute;
-  right: 5px;
-  bottom: 5px;
+  right: 10px;
+  bottom: 10px;
   z-index: 15;
-  font-size: 11px;
+  font-size: 12px;
 }
 
 .carousel-inner > .item .carousel-credit a {

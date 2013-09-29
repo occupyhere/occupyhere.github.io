@@ -12,4 +12,12 @@
       }
     });
   });
+  
+  $('.oh-show-more').click(function(e) {
+    e.preventDefault();
+    var classname = $(e.target).attr('data-class');
+    console.log(classname);
+    $(document.body).addClass(classname);
+  });
+  
 })(jQuery);

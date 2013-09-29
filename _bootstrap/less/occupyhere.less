@@ -91,10 +91,6 @@ body {
   padding-bottom: 10px;
 }
 
-.oh-show-archive {
-  display: none;
-}
-
 body {
   padding-bottom: 40px;
 }
@@ -106,6 +102,43 @@ body {
   right: 0;
   bottom: 0;
   left: 0;
+}
+
+#oh-what-more,
+#oh-archive,
+#oh-subscribe {
+  display: none;
+}
+
+body.oh-show-what-more {
+
+  #oh-what-more {
+    display: block;
+  }
+  
+  #oh-what-more-link {
+    display: none;
+  }
+  
+}
+
+
+body.oh-show-archive {
+
+  #oh-archive,
+  #oh-subscribe {
+    display: block;
+  }
+  
+  #oh-archive-link {
+    display: none;
+  }
+  
+}
+
+#oh-archive-link,
+#oh-subscribe {
+  margin-top: 10px;
 }
 
 @media (min-width: 480px) {
@@ -120,6 +153,17 @@ body {
   
   .carousel {
     margin-top: -72px;
+  }
+  
+  #oh-what-more-link,
+  #oh-archive-link {
+    display: none;
+  }
+  
+  #oh-what-more,
+  #oh-archive,
+  #oh-subscribe {
+    display: block;
   }
   
 }
