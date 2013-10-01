@@ -8,6 +8,15 @@
 		
 			<item>
 				<title>Occupy.here at PRISM Breakup</title>
+				<description>&lt;p&gt;Dan just posted an essay about occupy.here on Rhizome: &lt;a href=&quot;http://rhizome.org/editorial/2013/oct/1/tiny-self-contained-darknet/&quot;&gt;A tiny self-contained darknet&lt;/a&gt;. (That&amp;#39;s the new tag line here, in case you hadn&amp;#39;t noticed it.)&lt;/p&gt;
+</description>
+				<pubDate>Mon, 30 Sep 2013 20:00:01 -0400</pubDate>
+				<link>http://occupyhere.org/#/2013/09/30/a-tiny-self-contained-darknet.html</link>
+				<guid isPermaLink="true">http://occupyhere.org/#/2013/09/30/a-tiny-self-contained-darknet.html</guid>
+			</item>
+		
+			<item>
+				<title>Occupy.here at PRISM Breakup</title>
 				<description>&lt;p&gt;We&amp;#39;re giving a workshop at PRISM Breakup: &lt;a href=&quot;http://prismbreakup.org/#/schedule/how-to-build-a-tiny-self-contained-darknet&quot;&gt;How to build a tiny self-contained darknet&lt;/a&gt;. Starts 12:30pm on Sunday October 6, 2013, at Eyebeam (540 W 21st St, NYC). Bring a laptop!&lt;/p&gt;
 
 &lt;p&gt;Dan will also be giving &lt;a href=&quot;http://prismbreakup.org/#/schedule/small-wifi-networks-loosely-joined&quot;&gt;a talk&lt;/a&gt; at 4:30pm.&lt;/p&gt;
@@ -21,7 +30,7 @@
 				<title>Release 1</title>
 				<description>&lt;p&gt;After nearly two years of development, the first official release is now ready for download.&lt;/p&gt;
 
-&lt;p&gt;Download: &lt;a href=&quot;http://occupyhere.org/releases/occupy.here-r1.zip&quot;&gt;Occupy.here release 1&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Download: &lt;a href=&quot;https://github.com/occupyhere/occupy.here/archive/r1.zip&quot;&gt;Occupy.here release 1&lt;/a&gt;&lt;/p&gt;
 </description>
 				<pubDate>Sun, 29 Sep 2013 20:00:00 -0400</pubDate>
 				<link>http://occupyhere.org/#/2013/09/29/release-1.html</link>
