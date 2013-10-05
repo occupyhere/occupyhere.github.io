@@ -8,7 +8,7 @@
 		
 			<item>
 				<title>Release 2</title>
-				<description>&lt;p&gt;After very helpful early key feedback from Twitter user &lt;a href=&quot;https://twitter.com/pe5pe&quot;&gt;@pe5pe&lt;/a&gt;, we discovered that release 1 had a couple serious flaws:&lt;/p&gt;
+				<description>&lt;p&gt;After very helpful early feedback from Twitter user &lt;a href=&quot;https://twitter.com/pe5pe&quot;&gt;@pe5pe&lt;/a&gt;, we discovered that release 1 had a couple serious flaws:&lt;/p&gt;
 
 &lt;ol&gt;
 &lt;li&gt;The way we were setting up the initial network configuration was kind of a bad idea&lt;/li&gt;
