@@ -5647,6 +5647,10 @@ body {
   padding-left: 1.25em;
 }
 
+.oh-main ol {
+  padding-left: 1.5em;
+}
+
 .oh-section {
   padding-bottom: 15px;
   border-top: 2px solid #fff;
