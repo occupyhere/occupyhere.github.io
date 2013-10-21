@@ -7,6 +7,23 @@
 		<atom:link href="http://occupyhere.org//feed.xml" rel="self" type="application/rss+xml" />
 		
 			<item>
+				<title>Release 3</title>
+				<description>&lt;p&gt;The third release is here! We’ve fixed some snags that a few people were reporting with the install script (no more need to download opt.img). There’s also a new administrative section:&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;You can now easily backup the data from your router as a zip file&lt;/li&gt;
+&lt;li&gt;Administrators can delete posts&lt;/li&gt;
+&lt;li&gt;There is now an easy way to change the wifi network name and URL&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;Download: &lt;a href=&quot;https://github.com/occupyhere/occupy.here/archive/r3.zip&quot;&gt;Occupy.here release 3&lt;/a&gt;&lt;/p&gt;
+</description>
+				<pubDate>Sun, 20 Oct 2013 19:20:00 -0400</pubDate>
+				<link>http://occupyhere.org/#/2013/10/20/release-3.html</link>
+				<guid isPermaLink="true">http://occupyhere.org/#/2013/10/20/release-3.html</guid>
+			</item>
+		
+			<item>
 				<title>PRISM Breakup workshop screencast</title>
 				<description>&lt;p&gt;What an amazing weekend we had at &lt;a href=&quot;http://prismbreakup.org/&quot;&gt;PRISM Breakup&lt;/a&gt;! Thanks so much to the organizers, &lt;a href=&quot;http://deweyhagborg.com/&quot;&gt;Heather Dewey-Hagborg&lt;/a&gt;, &lt;a href=&quot;http://www.allisonburtch.net/&quot;&gt;Allison Burtch&lt;/a&gt;, &lt;a href=&quot;http://aureliamoser.com/&quot;&gt;Aurelia Moser&lt;/a&gt;, and &lt;a href=&quot;http://nas.sr/&quot;&gt;Ramsey Nasser&lt;/a&gt;. It was easily among the best art/tech events I&amp;#39;ve been to, and a pleasure to be involved.&lt;/p&gt;
 
@@ -98,15 +115,6 @@
 				<pubDate>Thu, 26 Jul 2012 20:00:00 -0400</pubDate>
 				<link>http://occupyhere.org/#/2012/07/26/occupy.here-in-hyperallergic.html</link>
 				<guid isPermaLink="true">http://occupyhere.org/#/2012/07/26/occupy.here-in-hyperallergic.html</guid>
-			</item>
-		
-			<item>
-				<title>Rhizome</title>
-				<description>&lt;p&gt;We’re really honored to have received &lt;a href=&quot;http://rhizome.org/editorial/2012/jul/16/rhizome-announces-commissions-2012-grantees/&quot;&gt;a Rhizome commission!&lt;/a&gt; Soon we'll have the funding to deploy a new round of public wifi nodes.&lt;/p&gt;
-</description>
-				<pubDate>Sun, 15 Jul 2012 20:00:00 -0400</pubDate>
-				<link>http://occupyhere.org/#/2012/07/15/rhizome-commission.html</link>
-				<guid isPermaLink="true">http://occupyhere.org/#/2012/07/15/rhizome-commission.html</guid>
 			</item>
 		
 	</channel>
