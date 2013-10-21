@@ -7,6 +7,17 @@
 		<atom:link href="http://occupyhere.org//feed.xml" rel="self" type="application/rss+xml" />
 		
 			<item>
+				<title>Release 4</title>
+				<description>&lt;p&gt;I realized shortly after release 3 went out there were some problems with the new admin features. Release 4 fixes those bugs, and also updates the included INSTALL.md instructions.&lt;/p&gt;
+
+&lt;p&gt;Download: &lt;a href=&quot;https://github.com/occupyhere/occupy.here/archive/r4.zip&quot;&gt;Occupy.here release 4&lt;/a&gt;&lt;/p&gt;
+</description>
+				<pubDate>Mon, 21 Oct 2013 08:25:00 -0400</pubDate>
+				<link>http://occupyhere.org/#/2013/10/21/release-4.html</link>
+				<guid isPermaLink="true">http://occupyhere.org/#/2013/10/21/release-4.html</guid>
+			</item>
+		
+			<item>
 				<title>Release 3</title>
 				<description>&lt;p&gt;The third release is here! We’ve fixed some snags that a few people were reporting with the install script (no more need to download opt.img). There’s also a new administrative section:&lt;/p&gt;
 
@@ -106,15 +117,6 @@
 				<pubDate>Fri, 08 Mar 2013 19:00:00 -0500</pubDate>
 				<link>http://occupyhere.org/#/2013/03/08/occupy.here-at-sxsw-2013.html</link>
 				<guid isPermaLink="true">http://occupyhere.org/#/2013/03/08/occupy.here-at-sxsw-2013.html</guid>
-			</item>
-		
-			<item>
-				<title>Occupy.here in Hyperallergic</title>
-				<description>&lt;p&gt;There's &lt;a href=&quot;http://hyperallergic.com/54540/dan-phiffers-occupy-here-rhizome-grant/&quot;&gt;an interview with founder Dan Phiffer&lt;/a&gt; in the art blog Hyperallergic. Thanks &lt;a href=&quot;http://benjaminvalentine.com&quot;&gt;Ben!&lt;/a&gt;&lt;/p&gt;
-</description>
-				<pubDate>Thu, 26 Jul 2012 20:00:00 -0400</pubDate>
-				<link>http://occupyhere.org/#/2012/07/26/occupy.here-in-hyperallergic.html</link>
-				<guid isPermaLink="true">http://occupyhere.org/#/2012/07/26/occupy.here-in-hyperallergic.html</guid>
 			</item>
 		
 	</channel>
