@@ -107,10 +107,23 @@ body {
   left: 0;
 }
 
+.smallcaps {
+  text-transform: uppercase;
+  font-size: 80%;
+  letter-spacing: 1px;
+}
+
 #oh-what-more,
-#oh-archive,
-#oh-subscribe {
+#oh-archive {
   display: none;
+}
+
+#oh-archive-link {
+  margin-top: 0;
+}
+
+#oh-subscribe {
+  margin-bottom: 0;
 }
 
 body.oh-show-what-more {
@@ -128,8 +141,7 @@ body.oh-show-what-more {
 
 body.oh-show-archive {
 
-  #oh-archive,
-  #oh-subscribe {
+  #oh-archive {
     display: block;
   }
   
@@ -158,14 +170,11 @@ body.oh-show-archive {
     margin-top: -72px;
   }
   
-  #oh-what-more-link,
-  #oh-archive-link {
+  #oh-what-more-link {
     display: none;
   }
   
-  #oh-what-more,
-  #oh-archive,
-  #oh-subscribe {
+  #oh-what-more {
     display: block;
   }
   

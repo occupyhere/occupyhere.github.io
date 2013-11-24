@@ -8,25 +8,26 @@ title: occupy.here / a tiny self-contained darknet
     <div id="what" class="oh-section oh-what col-md-6">
       {% include what_is_it.html %}
     </div>
+    <div class="oh-section col-md-3 col-sm-5">
+      {% include sidebar.html %}
+    </div>
     <div class="oh-section oh-news col-md-3 col-sm-7">
       <h3>News</h3>
       <div class="item" id="{{ site.posts.first.url }}">
+        <p class="smallcaps">{{ site.posts.first.date | date: "%B %-d, %Y" }}</p>
         {{ site.posts.first.content }}
       </div>
       <div id="oh-archive">
         {% for post in site.posts %}
           {% if post != site.posts.first %}
             <div class="item" id="{{ post.url }}">
+              <p class="smallcaps">{{ post.date | date: "%B %-d, %Y" }}</p>
               {{ post.content }}
             </div>
           {% endif %}
         {% endfor %}
       </div>
-      <p id="oh-subscribe"><a href="/feed.xml">Subscribe to the news feed</a></p>
       <p id="oh-archive-link"><a href="#" class="oh-show-more" data-class="oh-show-archive">Show more</a></p>
-    </div>
-    <div class="oh-section col-md-3 col-sm-5">
-      {% include sidebar.html %}
     </div>
   </div>
 </div>

@@ -5697,10 +5697,23 @@ body {
   background: transparent url(/images/pattern.png);
 }
 
+.smallcaps {
+  font-size: 80%;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
+
 #oh-what-more,
-#oh-archive,
-#oh-subscribe {
+#oh-archive {
   display: none;
+}
+
+#oh-archive-link {
+  margin-top: 0;
+}
+
+#oh-subscribe {
+  margin-bottom: 0;
 }
 
 body.oh-show-what-more #oh-what-more {
@@ -5711,8 +5724,7 @@ body.oh-show-what-more #oh-what-more-link {
   display: none;
 }
 
-body.oh-show-archive #oh-archive,
-body.oh-show-archive #oh-subscribe {
+body.oh-show-archive #oh-archive {
   display: block;
 }
 
@@ -5735,13 +5747,10 @@ body.oh-show-archive #oh-archive-link {
   .carousel {
     margin-top: -72px;
   }
-  #oh-what-more-link,
-  #oh-archive-link {
+  #oh-what-more-link {
     display: none;
   }
-  #oh-what-more,
-  #oh-archive,
-  #oh-subscribe {
+  #oh-what-more {
     display: block;
   }
 }

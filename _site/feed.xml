@@ -7,6 +7,25 @@
 		<atom:link href="http://occupyhere.org//feed.xml" rel="self" type="application/rss+xml" />
 		
 			<item>
+				<title>Release 5</title>
+				<description>&lt;p&gt;Release 5 was intended to introduce a major new feature, however it is not quite ready yet and we&amp;#39;re a month out from the last release. There is still a lot in this one:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Fixes and improvements in the install.sh script&lt;/li&gt;
+&lt;li&gt;Spanish language translation (thanks &lt;a href=&quot;https://twitter.com/pe5pe&quot;&gt;@pe5pe&lt;/a&gt;!)&lt;/li&gt;
+&lt;li&gt;Many other details&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;If you speak another language, and want to help internationalize Occupy.here, please get in touch!&lt;/p&gt;
+
+&lt;p&gt;Download: &lt;a href=&quot;https://github.com/occupyhere/occupy.here/archive/r5.zip&quot;&gt;Occupy.here release 5&lt;/a&gt;&lt;/p&gt;
+</description>
+				<pubDate>Sun, 24 Nov 2013 13:50:00 -0500</pubDate>
+				<link>http://occupyhere.org/#/2013/11/24/release-5.html</link>
+				<guid isPermaLink="true">http://occupyhere.org/#/2013/11/24/release-5.html</guid>
+			</item>
+		
+			<item>
 				<title>Release 4</title>
 				<description>&lt;p&gt;I realized shortly after release 3 went out there were some problems with the new admin features. Release 4 fixes those bugs, and also updates the included INSTALL.md instructions.&lt;/p&gt;
 
@@ -108,15 +127,6 @@
 				<pubDate>Thu, 02 May 2013 20:00:00 -0400</pubDate>
 				<link>http://occupyhere.org/#/2013/05/02/ideas-city.html</link>
 				<guid isPermaLink="true">http://occupyhere.org/#/2013/05/02/ideas-city.html</guid>
-			</item>
-		
-			<item>
-				<title>Occupy.here at SXSW 2013</title>
-				<description>&lt;p&gt;Occupy.here is at South by Southwest, presenting with Harlo Holmes of The Guardian Project and Isaac Wilder of the Free Network Foundation. Come see &lt;a href=&quot;http://schedule.sxsw.com/2013/events/event_IAP6393&quot;&gt;our panel on Saturday morning&lt;/a&gt;! (see also: &lt;a href=&quot;http://mlkshk.com/p/DMNT&quot;&gt;one year ago in Austin&lt;/a&gt;)&lt;/p&gt;
-</description>
-				<pubDate>Fri, 08 Mar 2013 19:00:00 -0500</pubDate>
-				<link>http://occupyhere.org/#/2013/03/08/occupy.here-at-sxsw-2013.html</link>
-				<guid isPermaLink="true">http://occupyhere.org/#/2013/03/08/occupy.here-at-sxsw-2013.html</guid>
 			</item>
 		
 	</channel>
