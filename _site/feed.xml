@@ -7,6 +7,22 @@
 		<atom:link href="http://occupyhere.org//feed.xml" rel="self" type="application/rss+xml" />
 		
 			<item>
+				<title>Release 6</title>
+				<description>&lt;p&gt;Two new features and one major bug fix in this Thanksgiving day release number six. The Spanish translation I thought was working in release 5 had some problems, but this one should address them. Onto the new stuff:&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;You can now change where users get redirected to when they request plain &amp;quot;http://occupy.here/&amp;quot; (previously they&amp;#39;d always get sent to the Forum page). Just go to the admin page and look for the &amp;quot;default path&amp;quot; setting.&lt;/li&gt;
+&lt;li&gt;I&amp;#39;ve beefed up a feature that hasn&amp;#39;t been enabled by default until now: a Library collection for HTML articles and PDFs. For now, to add new material you have to copy files into the top-level &amp;#39;import&amp;#39; folder on the USB memory stick. The next release will make it possible to download content straight from the Internet via Ethernet.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;Download: &lt;a href=&quot;https://github.com/occupyhere/occupy.here/archive/r6.zip&quot;&gt;Occupy.here release 6&lt;/a&gt;&lt;/p&gt;
+</description>
+				<pubDate>Thu, 28 Nov 2013 13:00:00 -0500</pubDate>
+				<link>http://occupyhere.org/#/2013/11/28/release-6.html</link>
+				<guid isPermaLink="true">http://occupyhere.org/#/2013/11/28/release-6.html</guid>
+			</item>
+		
+			<item>
 				<title>Release 5</title>
 				<description>&lt;p&gt;Release 5 was intended to introduce a major new feature, however it is not quite ready yet and we&amp;#39;re a month out from the last release. There is still a lot in this one:&lt;/p&gt;
 
@@ -118,15 +134,6 @@
 				<pubDate>Wed, 15 May 2013 20:00:00 -0400</pubDate>
 				<link>http://occupyhere.org/#/2013/05/15/occupy.here-at-expo1.html</link>
 				<guid isPermaLink="true">http://occupyhere.org/#/2013/05/15/occupy.here-at-expo1.html</guid>
-			</item>
-		
-			<item>
-				<title>Occupy.here at IDEAS City</title>
-				<description>&lt;p&gt;Come to the &lt;a href=&quot;http://occupyhere-ideascity.eventbrite.com/&quot;&gt;occupy.here workshop&lt;/a&gt; on Friday May 3rd, part of the &lt;a href=&quot;http://ideas-city.org/&quot;&gt;IDEAS CITY festival&lt;/a&gt; organized by the New Museum.&lt;/p&gt;
-</description>
-				<pubDate>Thu, 02 May 2013 20:00:00 -0400</pubDate>
-				<link>http://occupyhere.org/#/2013/05/02/ideas-city.html</link>
-				<guid isPermaLink="true">http://occupyhere.org/#/2013/05/02/ideas-city.html</guid>
 			</item>
 		
 	</channel>
