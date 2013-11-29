@@ -7,6 +7,17 @@
 		<atom:link href="http://occupyhere.org//feed.xml" rel="self" type="application/rss+xml" />
 		
 			<item>
+				<title>Release 7</title>
+				<description>&lt;p&gt;Almost as soon as I&amp;#39;d uploaded yesterday&amp;#39;s release number six, I realized the newly added Library feature had a serious flaw in how it handled imported HTML files. This bugfix release addresses that and a security vulnerability I discovered in the Library code. Be sure to update if you installed release number six!&lt;/p&gt;
+
+&lt;p&gt;Download: &lt;a href=&quot;https://github.com/occupyhere/occupy.here/archive/r7.zip&quot;&gt;Occupy.here release 7&lt;/a&gt;&lt;/p&gt;
+</description>
+				<pubDate>Fri, 29 Nov 2013 11:40:00 -0500</pubDate>
+				<link>http://occupyhere.org/#/2013/11/29/release-7.html</link>
+				<guid isPermaLink="true">http://occupyhere.org/#/2013/11/29/release-7.html</guid>
+			</item>
+		
+			<item>
 				<title>Release 6</title>
 				<description>&lt;p&gt;Two new features and one major bug fix in this Thanksgiving day release number six. The Spanish translation I thought was working in release 5 had some problems, but this one should address them. Onto the new stuff:&lt;/p&gt;
 
@@ -125,15 +136,6 @@
 				<pubDate>Sun, 29 Sep 2013 20:00:00 -0400</pubDate>
 				<link>http://occupyhere.org/#/2013/09/29/release-1.html</link>
 				<guid isPermaLink="true">http://occupyhere.org/#/2013/09/29/release-1.html</guid>
-			</item>
-		
-			<item>
-				<title>Occupy.here at EXPO 1</title>
-				<description>&lt;p&gt;Occupy.here was &lt;a href=&quot;http://canopycanopycanopy.com/updates/245&quot;&gt;commissioned by Triple Canopy&lt;/a&gt; to provide a virtual library for their school and lecture series at MoMA PS1&amp;#39;s EXPO 1, titled &lt;i&gt;Speculations (“The Future Is ___________”)&lt;/i&gt;. You can watch the &lt;a href=&quot;http://www.momaps1.org/expo1/event/dan-phiffer/&quot;&gt;archived LiveStream of Dan’s talk&lt;/a&gt;.&lt;/p&gt;
-</description>
-				<pubDate>Wed, 15 May 2013 20:00:00 -0400</pubDate>
-				<link>http://occupyhere.org/#/2013/05/15/occupy.here-at-expo1.html</link>
-				<guid isPermaLink="true">http://occupyhere.org/#/2013/05/15/occupy.here-at-expo1.html</guid>
 			</item>
 		
 	</channel>
